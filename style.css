@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+.body {
+  width: 99vw;
+  height: 97vh;
+  background-color: rgb(217, 203, 203);
+  background-image: url("https://www.shutterstock.com/image-vector/seamless-pattern-game-tic-tac-600w-709731865.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  color: aliceblue;
+}
+.message {
+  color: aliceblue;
+  font-size: 20px;
+  font-weight: 700;
+}
+.board {
+  padding: 10px;
+  padding-bottom: 20px;
+  width: 320px;
+  height: 320px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  background-color: rgb(61, 61, 61);
+  background-image: url("https://cdn.pixabay.com/photo/2017/01/05/09/21/tic-tac-toe-1954446_960_720.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+}
+.cell {
+  line-height: 100px;
+  font-size: 80px;
+  text-align: center;
+  color: aliceblue;
+  width: 100px;
+  height: 100px;
+  /* background-color: rgba(240, 248, 255, 0.911); */
+}
+button {
+  border: none;
+  width: 150px;
+  height: 30px;
+  border-radius: 70px;
+  background-color: #f0f8ffb0;
+  font-weight: 700;
+  color: rgb(60, 59, 59);
+}
